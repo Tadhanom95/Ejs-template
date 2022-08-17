@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 })
 // about page
 app.get('/practices', (req, res) => {
-  var title = 'Skills'
+  var title = 'Coding Practice'
   var heading = 'During L&D'
   res.render('pages/practices',{
     'title':title,
@@ -29,7 +29,7 @@ app.get('/practices', (req, res) => {
 })
 
 app.get('/about', (req, res) => {
-  var title = 'Coding Practice';
+  var title = 'Skills';
   var heading = 'JavaScript and ReactJs'
   res.render('pages/about',{
     'title':title,
